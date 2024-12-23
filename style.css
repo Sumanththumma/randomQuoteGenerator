@@ -90,4 +90,11 @@ h3{
         font-size:large;
         transition-duration: 500ms; 
     }
+    p{
+        font-family:'Times New Roman', Times, serif;
+        font-weight: 600;
+        padding: 0 1rem;
+        font-size: xx-large;
+        transition-duration: 500ms; 
+}
 }

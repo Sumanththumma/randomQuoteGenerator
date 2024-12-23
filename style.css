@@ -1,0 +1,93 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    background-color: black;
+    color: white;
+}
+img{
+    width:280px;
+    height:280px;
+    border-radius: 50%;
+    object-fit:cover;
+    background-color: white;
+    transition-duration: 500ms; 
+}
+p{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: xx-large;
+    transition-duration: 500ms; 
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:x-large l;
+    transition-duration: 500ms; 
+}
+
+    
+    button {background-image: linear-gradient(to right, #232526 0%, #414345  51%, #232526  100%)}
+    button {
+       margin: 10px;
+       padding: 15px 45px;
+       text-align: center;
+       text-transform: uppercase;
+       transition: 0.5s;
+       background-size: 200% auto;
+       color: white;            
+       box-shadow: 0 0 10px #eeeeeebb;
+       border-radius: 10px;
+       display: block;
+       border: none;
+       cursor: pointer;
+       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       font-size: larger;
+       font-weight: 600;
+     }
+
+     button:hover {
+       background-position: right center;
+       text-decoration: none;
+     }
+    
+@media (max-width: 480px){
+    *{
+        font-size: small;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        background-color: black;
+        color: white;
+    }
+    img{
+        width:180px;
+        height:180px;
+        border-radius: 50%;
+        object-fit:cover;
+        background-color: white;
+        transition-duration: 500ms; 
+    }
+    h3{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:large;
+        transition-duration: 500ms; 
+    }
+}
